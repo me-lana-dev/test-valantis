@@ -1,7 +1,7 @@
-import Home from "../pages/HomePage";
+import About from "../pages/AboutPage";
 import Products from "../pages/ProductsPage";
 
 export const publicRoutes = [
-  { path: "/", element: Home, index: true },
-  { path: "/products", element: Products },
+  { path: "/", element: Products, index: true },
+  { path: "/about", element: About },
 ];

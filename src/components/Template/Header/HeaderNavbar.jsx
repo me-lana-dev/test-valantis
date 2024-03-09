@@ -5,10 +5,10 @@ const HeaderNavbar = () => {
   return (
     <nav className="header-nav">
       <NavLink to="/" className="header-nav-link">
-        Главная
-      </NavLink>
-      <NavLink to="/products" className="header-nav-link">
         Товары
+      </NavLink>
+      <NavLink to="/about" className="header-nav-link">
+        О проекте
       </NavLink>
     </nav>
   );
