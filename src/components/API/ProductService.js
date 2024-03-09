@@ -4,7 +4,7 @@ import { getStringXAuth } from "../../utils/xAuth";
 export default class ProductService {
   static async getIds(offset = 0, limit = 5) {
     const response = await axios.post(
-      "http://api.valantis.store:40000/",
+      "https://api.valantis.store:41000/",
       {
         action: "get_ids",
         params: {
@@ -23,7 +23,7 @@ export default class ProductService {
 
   static async getItems(ids) {
     const response = await axios.post(
-      "http://api.valantis.store:40000/",
+      "https://api.valantis.store:41000/",
       {
         action: "get_items",
         params: {
@@ -41,7 +41,7 @@ export default class ProductService {
 
   static async getAllFields() {
     const response = await axios.post(
-      "http://api.valantis.store:40000/",
+      "https://api.valantis.store:41000/",
       {
         action: "get_fields",
       },
@@ -56,7 +56,7 @@ export default class ProductService {
 
   static async getFields(field, offset = 0, limit = 5) {
     const response = await axios.post(
-      "http://api.valantis.store:40000/",
+      "https://api.valantis.store:41000/",
       {
         action: "get_fields",
         params: {
