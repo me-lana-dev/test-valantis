@@ -1,0 +1,39 @@
+.footer {
+  grid-area: footer;
+  display: flex;
+  align-items: center;
+  background-color: #ececec;
+  padding: 0 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  border-bottom: 2px solid #333333;
+}
+@media screen and (min-width: 900px) {
+  .footer {
+    flex-direction: row;
+  }
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer a {
+  color: orange;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #ffb62f;
+}
+@media screen and (min-width: 900px) {
+  .footer {
+    flex-direction: row;
+  }
+  .footer a {
+    padding-left: 6px;
+  }
+}

@@ -1,0 +1,41 @@
+.App {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 16px auto 16px;
+  grid-template-rows: 50px auto 50px;
+  grid-template-areas:
+    "header header header"
+    ". main ."
+    "footer footer footer";
+  row-gap: 16px;
+  justify-content: stretch;
+}
+
+.main {
+  grid-area: main;
+}
+
+.main .page {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.main h1 {
+  color: orange;
+  text-align: center;
+}
+
+.main .message {
+  text-align: center;
+}
+
+.main .message a {
+  color: orange;
+  text-decoration: none;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+}

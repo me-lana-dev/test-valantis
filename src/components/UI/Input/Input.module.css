@@ -1,0 +1,12 @@
+.input {
+  display: block;
+  padding: 0 15px;
+  line-height: 28px;
+  margin: 5px 0;
+  border: 1px solid gray;
+}
+
+.input:focus {
+  outline: none;
+  border-color: orange;
+}

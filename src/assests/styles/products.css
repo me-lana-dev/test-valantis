@@ -1,0 +1,26 @@
+.product-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-item {
+  display: flex;
+  margin-bottom: 16px;
+  background-color: #f0f0f0;
+  padding: 16px;
+}
+
+.product-col-1 {
+  width: 350px;
+  border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.product-col-2 {
+  width: 150px;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+}
